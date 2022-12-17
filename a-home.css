@@ -208,12 +208,12 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .a-home-desktop-menu {
+  /* .a-home-desktop-menu {
     display: none;
   }
   .a-home-btn-group {
     display: none;
-  }
+  } */
   .a-home-burger-menu {
     display: flex;
   }

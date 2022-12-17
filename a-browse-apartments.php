@@ -136,14 +136,45 @@
         <div data-thq="thq-navbar-nav" data-role="Nav" class="a-browse-apartments-desktop-menu">
           <nav data-thq="thq-navbar-nav-links" data-role="Nav" class="a-browse-apartments-nav"></nav>
         </div>
-        <div data-thq="thq-navbar-btn-group" class="a-browse-apartments-btn-group">
-          <a href="a-login.php">
-            <button class="a-browse-apartments-login button">Login</button>
-          </a>
-          <a href="a-signup.php">
-            <button class="button">Sign Up</button>
-          </a>
+
+        <link rel="stylesheet" href="a-home.css">
+        <div data-thq="thq-navbar-nav" data-role="Nav" class="a-home-desktop-menu" style="display: inline;">
+          <nav data-thq="thq-navbar-nav-links" data-role="Nav" class="a-home-nav"></nav>
         </div>
+        <div data-thq="thq-navbar-btn-group" class="a-home-btn-group"></div>
+        <div data-thq="thq-burger-menu" class="a-home-burger-menu" style="display: inline;">
+          <svg viewBox="0 0 1024 1024" class="a-home-icon">
+            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+          </svg>
+        </div>
+        <div data-thq="thq-mobile-menu" class="a-home-mobile-menu">
+          <div data-thq="thq-mobile-menu-nav" data-role="Nav" class="a-home-nav1">
+            <div class="a-home-container1">
+              <h2>APARTMENT RENTAL <br>TRACKING SYSTEM</h2>
+              <div data-thq="thq-close-menu" class="a-home-menu-close">
+                <svg viewBox="0 0 1024 1024" class="a-home-icon02">
+                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                </svg>
+              </div>
+            </div>
+            <nav data-thq="thq-mobile-menu-nav-links" data-role="Nav" class="a-home-nav2">
+              <a href="a-login.php" style="padding: 15px 0px;">
+                <span class="a-home-text">LOG IN</span>
+              </a>
+              <a href="a-signup.php" style="padding: 15px 0px;">
+                <span class="a-home-text01">SIGN UP</span>
+              </a>
+              <a href="a-browse-apartments.php" style="padding: 15px 0px;">
+                <span class="a-home-text01">BROWSE APARTMENTS</span>
+              </a>
+              <a href="a-terms.php" style="padding: 15px 0px;">
+                <span class="a-home-text01">PRIVACY TERMS AND CONDITIONS</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+
+
       </header>
       <div class="a-browse-apartments-banner">
         <h1 class="a-browse-apartments-text5">Browse Apartments</h1>
@@ -152,17 +183,17 @@
 
 
 
-            <script>
-              function unit1(num) {
-                localStorage.setItem("unit", num);
-                window.location.href = "a-browse-view.php";
-                // window.alert(num);
-                return false;
-              }
-            </script>
-            
+          <script>
+            function unit1(num) {
+              localStorage.setItem("unit", num);
+              window.location.href = "a-browse-view.php";
+              // window.alert(num);
+              return false;
+            }
+          </script>
 
-        <!-- <form action="a-browse-view.php" style="display: inline;"> -->
+
+          <!-- <form action="a-browse-view.php" style="display: inline;"> -->
 
           <div class="gallery-card1-gallery-card gallery-card1-root-class-name" onclick="unit1(1)">
             <img alt="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4aecba63-a849-4176-8a41-2ace4ad9f62b/dt4o2a-daef74bc-09d9-4564-a83e-ef2e74f0c6c2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhZWNiYTYzLWE4NDktNDE3Ni04YTQxLTJhY2U0YWQ5ZjYyYlwvZHQ0bzJhLWRhZWY3NGJjLTA5ZDktNDU2NC1hODNlLWVmMmU3NGYwYzZjMi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.mqxJ2E--knbivRcX5Rbhncnze6yFrbyMPv0rek_zCfU" class="gallery-card1-image" />

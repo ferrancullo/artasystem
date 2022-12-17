@@ -185,47 +185,45 @@
         <div data-thq="thq-navbar-nav" data-role="Nav" class="a-login-desktop-menu">
           <nav data-thq="thq-navbar-nav-links" data-role="Nav" class="a-login-nav"></nav>
         </div>
-        <div data-thq="thq-navbar-btn-group" class="a-login-btn-group">
-          <a href="a-login.php">
-            <button class="a-login-login button">Login</button>
-          </a>
-          <a href="a-signup.php">
-            <button class="button">Sign Up</button>
-          </a>
+
+
+
+        <link rel="stylesheet" href="a-home.css">
+        <div data-thq="thq-navbar-nav" data-role="Nav" class="a-home-desktop-menu" style="display: inline;">
+          <nav data-thq="thq-navbar-nav-links" data-role="Nav" class="a-home-nav"></nav>
         </div>
-
-
-
-        <div data-thq="thq-navbar-nav" data-role="Nav" class="a-login-desktop-menu">
-          <nav data-thq="thq-navbar-nav-links" data-role="Nav" class="a-login-nav"></nav>
-        </div>
-        <div data-thq="thq-navbar-btn-group" class="a-login-btn-group"></div>
-        <div data-thq="thq-burger-menu" class="a-login-burger-menu">
-          <svg viewBox="0 0 1024 1024" class="a-login-icon">
+        <div data-thq="thq-navbar-btn-group" class="a-home-btn-group"></div>
+        <div data-thq="thq-burger-menu" class="a-home-burger-menu" style="display: inline;">
+          <svg viewBox="0 0 1024 1024" class="a-home-icon">
             <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
           </svg>
         </div>
-        <div data-thq="thq-mobile-menu" class="a-login-mobile-menu">
-          <div data-thq="thq-mobile-menu-nav" data-role="Nav" class="a-login-nav1">
-            <div class="a-login-container1">
+        <div data-thq="thq-mobile-menu" class="a-home-mobile-menu">
+          <div data-thq="thq-mobile-menu-nav" data-role="Nav" class="a-home-nav1">
+            <div class="a-home-container1">
               <h2>APARTMENT RENTAL <br>TRACKING SYSTEM</h2>
-              <div data-thq="thq-close-menu" class="a-login-menu-close">
-                <svg viewBox="0 0 1024 1024" class="a-login-icon02">
+              <div data-thq="thq-close-menu" class="a-home-menu-close">
+                <svg viewBox="0 0 1024 1024" class="a-home-icon02">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
               </div>
             </div>
-
-            <nav data-thq="thq-mobile-menu-nav-links" data-role="Nav" class="a-login-nav2">
+            <nav data-thq="thq-mobile-menu-nav-links" data-role="Nav" class="a-home-nav2">
               <a href="a-login.php" style="padding: 15px 0px;">
-                <span class="a-login-text">LOG IN</span>
+                <span class="a-home-text">LOG IN</span>
               </a>
               <a href="a-signup.php" style="padding: 15px 0px;">
-                <span class="a-login-text01">SIGN UP</span>
+                <span class="a-home-text01">SIGN UP</span>
+              </a>
+              <a href="a-browse-apartments.php" style="padding: 15px 0px;">
+                <span class="a-home-text01">BROWSE APARTMENTS</span>
+              </a>
+              <a href="a-terms.php" style="padding: 15px 0px;">
+                <span class="a-home-text01">PRIVACY TERMS AND CONDITIONS</span>
               </a>
             </nav>
-
           </div>
+        </div>
 
 
 

@@ -178,6 +178,8 @@
         <a href="a-browse-apartments.php">
           <button style="background-color: aliceblue; border-radius: 5px;">Back</button>
         </a>
+
+        
 </header>
       <div class="a-browse-view-banner">
         <div class="a-browse-view-btn-group1"></div>
